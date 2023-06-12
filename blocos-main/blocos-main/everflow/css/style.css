@@ -1,0 +1,47 @@
+/* Definição das variáveis do CSS */
+:root {
+    --primary-color: rgb(229, 255, 0);
+    --secondary-color: rgb(229, 255, 0);
+    --tertiary-color: rgb(229, 255, 0);
+    --back-color: rgb(45, 43, 155);
+}
+/* Resetar as configurações do navegador */
+* {
+   background: var(--back-color);
+}
+
+body {
+      margin: 0;
+      padding: 0;
+      outline: 0;
+}
+
+main {
+    display: flex;
+    width:  80%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.box {
+    align-items: flex-start;
+    justify-content: space-between;
+    display: flex;
+    width: 500px;
+    height: 500px;
+    border: 1px solid;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+#red {
+    background-color: var(--primary-color);
+}
+
+#green {
+    background-color: var(--secondary-color);
+}
+
+#blue {
+    background-color: var(--tertiary-color);
+}
